@@ -1,0 +1,13 @@
+ai-study-app/
+├── backend/
+│   ├── src/
+│   │   ├── db/
+│   │   │   ├── schema.ts      <-- (كود الجداول الذي كتبناه قبل قليل)
+│   │   │   └── index.ts       <-- اتصال قاعدة البيانات
+│   │   ├── routes/
+│   │   │   └── books.ts       <-- مسارات رفع الكتب والمعالجة
+│   │   └── index.ts           <-- نقطة بداية السيرفر (Express)
+│   ├── package.json
+│   └── tsconfig.json
+├── frontend/                  <-- (تطبيق الـ Vite + React / TypeScript)
+└── .gitignore
